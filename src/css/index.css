@@ -36,7 +36,6 @@ body {
 .navbar {
     width: 100%;
     background-color: black;
-    height: 46px;
     padding: 1em;
     color: white;
     display: flex;
@@ -44,6 +43,7 @@ body {
     position: fixed;
     top: 0;
     z-index: 5;
+    font-weight: bold;
 }
 
 .navbar

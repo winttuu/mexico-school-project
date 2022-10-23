@@ -1,0 +1,53 @@
+.modal-slider {
+    min-width: 500px;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.modal-slider-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    opacity: 0.5;
+}
+
+.modal-slider-image--active {
+    left: 0;
+    opacity: 1;
+    transition: left .3s, opacity 1s ease-in-out;
+}
+
+.modal-slider-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-slider-button {
+    position: absolute;
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.modal-slider-button--right {
+    right: 0;
+}
+
+.button {
+    padding: 1.5em;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
