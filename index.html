@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Dream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="stylesheet" href="./src/css/index.css" />
+    <link rel="stylesheet" href="./src/css/slider.css" />
+    <link rel="stylesheet" href="./src/css/modal.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script defer src="./src/js/slider.js"></script>
+</head>
+<body>
+    <div class="modal">
+        <div class="modal-shadow" onclick="onActiveModal(-1)">
+            <div class="modal-content">
+                <div class="modal-card" onclick="event.stopPropagation()">
+                    <div class="content content--active">
+                        <div class="modal-image-section">
+                            <img src="./src/img/gastronomia-en-mexico-modal.jpg" alt="">
+                        </div>
+                        <div class="modal-second-section">
+                            <div class="modal-title">
+                                GASTRONOMIA MEXICANA
+                            </div>
+                            <div class="modal-text">
+                                La gastronomía mexicana está construida con varios platillos que exponen las combinaciones que se han hecho con los años: desde la época prehispánica, la Colonia y hasta la actualidad.<br>
+                                <br>Gracias a este mestizaje, en 2010 su gastronomía fue declarada por la UNESCO como Patrimonio Cultural Inmaterial de la Humanidad.<br>
+
+                                <br>Su origen se remonta a la época prehispánica, cuando la base de casi todos los platillos eran tres ingredientes:<br>
+                                <br>
+                                <ul>
+                                    <li>Maíz</li>
+                                    <li>Frijol</li>
+                                    <li>Chile</li>
+                                </ul>
+                                <br>Además, se complementaban con chocolate, carne de animales pequeños como aves o pescados y con hierbas de olor.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="modal-image-section">
+                            <img src="./src/img/mexico-culture-modal.jpg" alt="">
+                        </div>
+                        <div class="modal-second-section">
+                            <div class="modal-title">
+                                CULTURA MEXICANA
+                            </div>
+                            <div class="modal-text__culture">
+                                Su cultura tiene un gran prestigio a nivel mundial, cuenta con una actividad turística muy importante, que hacen de esta nación uno de los destinos más visitados del mundo.<br>
+                            </div>
+                            <div class="modal-text__mexican-art">
+                                <h3>Arte</h3>
+                                <div>Destaca por su representación de imágenes cotidianas como animales, alimentos, y personas. Se trata de un arte que le da mucha importancia a las tradiciones y las creencias, así como a los productos hechos artesanalmente. Todo suele ser muy colorido y llamativo, con el propósito de llamar la atención en tonalidades muy vivas.<br>
+                                <br>Mexico cuenta con nombres de prestigio internacional como Diego de Rivera, Frida Kahlo, José Clemente Orozco y David Alfaro Siqueiros.
+                                </div>
+                            </div>
+                            <br>
+                            <div class="modal-text__mexican-music">
+                                <h3>Musica</h3>
+                                <div>Los instrumentos prehispánicos eran fabricados de una manera ingeniosa, con materiales poco convencionales como huesos, caparazones de tortugas, semillas, barro, entre otros.<br>
+                                <br>Entre los géneros mexicanos más populares se encuentran el mariachi, los corridos, la ranchera, la banda sinaloense y la norteña. Cabe mencionar que el mariachi cuenta también con el nombramiento de Patrimonio Inmaterial de la Humanidad por la UNESCO.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="modal-image-section">
+                            <img src="./src/img/chichen-itza-modal.jpg" alt="">
+                        </div>
+                        <div class="modal-second-section">
+                            <div class="modal-title">
+                                ARQUEOLOGIA MEXICANA
+                            </div>
+                            <div class="modal-text">
+                                A la importancia científica de los monumentos y objetos históricos se añade el detalle de que forman parte del patrimonio cultural. En otras palabras tienen un valor estético o académico y son parte esencial de la cultura y de los valores de un pueblo.<br>
+                                <br>El legado arqueológico mexicano es de los más conocidos e importantes de América y del mundo, dado que una porción significativa de su territorio fue ocupada por diversas culturas mesoamericanas, particularmente por el Imperio Azteca, sometido a la fuerza por los conquistadores españoles. Los principales yacimientos arqueológicos mexicanos son Tulúm, Chichen Itzá, Cobá, Uxmal, Monte Albán y Dzibanché.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        MODAL 3
+                    </div>
+                    <div class="content">
+                        MODAL 4
+                    </div>
+                    <div class="content requeriments-modal">
+                        <div>
+                            <div class="requeriments-title-contain">
+                                <div>Documentacion requerida para ingresar a México: </div>
+                                <div class="requeriments-icon-container">
+                                    <img src="./src/img/icons8-documento-50.png" alt="">
+                                </div>
+                            </div>
+                            <div class="requeriments-text-section">
+                                <div class="requeriments-text">
+                                    La documentación para viajar a México en 2022 es la siguiente:
+                                    <ul>
+                                        <li>Pasaporte vigente durante el periodo de estancia en México y a la fecha de salida del país.</li><br>
+                                        <li>Forma Migratoria Múltiple (FMM) completada. Este documento te lo darán en el avión o en el paso fronterizo terrestre, aunque también se puede completar en línea en este enlace. En este último caso, tendrás que llevarla impresa. Ten en cuenta que a la hora de salir de México tendrás que enseñar el resguardo de la FMM, así que consérvalo bien. Si se te pierde, debes denunciarlo en una agencia del Ministerio Público. A la hora de salir del país tendrás que enseñar la denuncia por robo o extravío.</li><br>
+                                        <li>Copia de un billete de salida de México.</li><br>
+                                        <li>Algún documento que demuestre el motivo de tu viaje. Si vas como turista, tendrás que enseñar las reservas de hotel y/o de tours. En el caso de que vayas a visitar a familiares o vayas a alojarte en otro tipo de lugares, puedes aportar los datos de esas personas (dirección, número de teléfono y nombre y apellidos) o alguna carta.</li><br>
+                                        <li>Otros documentos que el agente migratorio considere necesario. Por ejemplo, un documento que pruebe tu solvencia económica, es decir, que tienes medios económicos suficientes para cubrir tu manutención y alojamiento. No es un documento obligatorio para viajar a México desde España, pero señala el MAEC que es habitual que se requiera en la frontera. No se señala ninguna documentación específica, pero suele servir un extracto bancario o el efectivo. Otro documento que se puede solicitar es la la prueba de contar con un seguro de viaje a México. Esto es especialmente importante en épocas de coronavirus, ya que indicará que eres solvente frente a gastos de asistencia sanitaria y repatriación, entre muchos otros.</li><br>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <a href="./index.html" class="navbar__logo">TRAVEL DREAM</a>
+        <div class="navbar__list">
+            <div onclick="goToSection('section-2')" class="navbar__item">Sobre México</div>
+            <div onclick="goToSection('section-3')" class="navbar__item">Lugares</div>
+            <div onclick="goToSection('section-4')" class="navbar__item">Festivales Importantes</div>
+            <div onclick="goToSection('section-5')" class="navbar__item">Nuestros Paquetes</div>
+            <div onclick="goToSection('section-6')" class="navbar__item">Preguntas Frecuentes</div>
+        </div>
+    </nav>
+
+    <section id="section-1" class="slider">
+        <section class="slider-items">
+            <div id="slider-0" class="slider-item slider-item--active">
+                <div class="shadow-mexico"><span class="first"></span><span class="second"></span><span class="third"></span></div>
+                <div class="slider-content">
+                    <div class="slider-wrapper">
+                        <div class="slider-card">
+                            <div class="slider-card box-title">
+                                <span class="slider-card title">TRAVEL DREAM</span>
+                                <span class="slider-card subtitle"> Los mejores viajes a México</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slider-1" class="slider-item">
+                <div class="shadow-mexico"><span class="first"></span><span class="second"></span><span class="third"></span></div>
+                <div class="slider-content">
+                    <div class="slider-wrapper">
+                        <div class="slider-card slogan">
+                            <span>TOMATE UN DESCANSO.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slider-2" class="slider-item">
+                <div class="shadow-mexico"><span class="first"></span><span class="second"></span><span class="third"></span></div>
+                <div class="slider-content">
+                    <div class="slider-wrapper">
+                        <div class="slider-card slogan">
+                            <span>TODO PARA TU PROXIMA ESCAPADA.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="slider-button slider-button--left" onclick="onActiveSlider(false)">
+            <span class="button"><</span>
+        </div>
+        <div class="slider-button slider-button--right" onclick="onActiveSlider(true)">
+            <span class="button">></span>
+        </div>
+    </section>
+
+
+    <section id="section-2" class="section">
+        <section class="horizontal-menu-card-list">
+            <div class="horizontal-menu-card">
+                <div class="horizontal-menu-card__head horizontal-menu-card__head-0">
+                    <div class="horizontal-menu-card__shadow">
+                        <div class="horizontal-menu-card__title">
+                            <div class="content">
+                                GASTRONOMIA
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-menu-card__body">
+                    <div class="horizontal-menu-card__description">La gastronomía mexicana consta de un conjunto de platillos que son característicos por la riqueza de sabores, aromas y la ancestralidad de su origen.</div>
+                    <div class="horizontal-menu-card__button" onclick="onActiveModal(0)">Leer mas</div>
+                </div>
+            </div>
+            <div class="horizontal-menu-card">
+                <div class="horizontal-menu-card__head horizontal-menu-card__head-1">
+                    <div class="horizontal-menu-card__shadow">
+                        <div class="horizontal-menu-card__title">
+                            <div class="content">
+                                CULTURA
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-menu-card__body">
+                    <div class="horizontal-menu-card__description">Un lugar donde reinan los mariachis, el color, el chile y el tequila. En definitiva, las tradiciones de México saben hacer de cada momento algo especial y llevan la alegría por bandera.</div>
+                    <div class="horizontal-menu-card__button" onclick="onActiveModal(1)">Leer mas</div>
+                </div>
+            </div>
+            <div class="horizontal-menu-card">
+                <div class="horizontal-menu-card__head horizontal-menu-card__head-2">
+                    <div class="horizontal-menu-card__shadow">
+                        <div class="horizontal-menu-card__title">
+                            <div class="content">
+                                ARQUEOLOGIA
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-menu-card__body">
+                    <div class="horizontal-menu-card__description">Su patrimonio arqueológico está conformado por zonas y sitios arqueológicos; también incluye objetos y materiales utilizados en el México antiguo por sus pobladores.</div>
+                    <div class="horizontal-menu-card__button" onclick="onActiveModal(2)">Leer mas</div>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    <div class="hero-contain">
+        <div class="hero">
+            
+            <div class="better-places-title">
+                Destinos imperdibles en México
+            </div>
+
+            <section id="section-3">
+                
+                <div class="evento">
+                    <div class="foto" data-aos="fade-up">
+                        <img src="./src/img/Isla_Mujeres_aerial_(29729604048).jpg" alt="">
+                    </div>
+                    <div class="place-text-section">
+                        <h3 class="place-title">Isla Mujeres</h3>
+                        <p class="place-text-description">Esta antigua isla de pescadores se encuentra a tan sólo 15 kilómetros de la costa de Cancún, haciéndola una buena opción para visitar durante el día. Designada como “Pueblo Mágico”, Isla Mujeres es reconocida por su ambiente relajado y vibra caribeña, donde los viajeros pueden gozar de una verdadera desconexión</p>
+                    </div>
+                </div>
+                <div class="evento">
+                    <div class="foto" data-aos="fade-up">
+                        <img src="./src/img/museo-del-agua-2.jpg" alt="">
+                    </div>
+                    <div class="place-text-section">
+                        <h3 class="place-title">Museo Subacuático de Arte</h3>
+                        <p class="place-text-description">El parque Nacional ubicado entre las aguas de Cancún e Isla Mujeres es uno de los más visitados del mundo. Cada año cientos de miles de turistas nadan en estas aguas, lo cual genera un impacto ambiental a los arrecifes y la vida que se genera en ellos.</p>
+                    </div>
+                </div>
+                <div class="evento">
+                    <div class="foto" data-aos="fade-up">
+                        <img src="./src/img/PLAYA-DEL-CARMEN.jpg" alt="">
+                    </div>
+                    <div class="place-text-section">
+                        <h3 class="place-title">Playa del Carmen</h3>
+                        <p class="place-text-description">Playa del Carmen es un balneario al sur de Cancún que suele ser más popular que éste: su centro es más seguro y su oferta turística es más variada que la de Cancún, donde la actividad se concentra alrededor de los grandes complejos hoteleros. Forma parte del área turística de la Riviera Maya</p>
+                    </div>
+                </div>
+                <div class="evento">
+                    <div class="foto" data-aos="fade-up">
+                        <img src="./src/img/ruinas-tulum.jpg" alt="">
+                    </div>
+                    <div class="place-text-section">
+                        <h3 class="place-title">Ruinas de Tulum</h3>
+                        <p class="place-text-description">Las Ruinas de la majestuosa ciudad maya de Tulum se encuentran sobre un promontorio, asomadas al mar del Caribe como un balcón en el estado de Quintana Roo, en la Riviera Maya.</p>
+                    </div>
+                </div>
+                <div class="evento">
+                    <div class="foto" data-aos="fade-up">
+                        <img src="./src/img/reserva-kiasan.jpg" alt="">
+                    </div>
+                    <div class="place-text-section">
+                        <h3 class="place-title">Sian Ka’an</h3>
+                        <p class="place-text-description">Reserva de la biosfera y patrimonio mundial de la Unesco, Sian Ka’an es la reserva más grande de Yucatán y uno de los lugares más bonitos de México.</p>
+                    </div>
+                </div>
+                <div class="evento">
+                    <div class="foto" data-aos="fade-up">
+                        <img src="./src/img/piramide-Chichen-Itza.jpg" alt="">
+                    </div>
+                    <div class="place-text-section">
+                        <h3 class="place-title">Chichén Itzá</h3>
+                        <p class="place-text-description">Los turistas adoran la excursión de un día para conocer sus místicas pirámides y templos, uno de ellos, el Kukulkán, elegido en 2007 como una de las Siete Nuevas Maravillas del Mundo Moderno.</p>
+                    </div>
+                </div>
+                <div class="evento">
+                    <div class="foto" data-aos="fade-up">
+                        <img src="./src/img/ciudad-mexico.jpg" alt="">
+                    </div>
+                    <div class="place-text-section">
+                        <h3 class="place-title">Ciudad de México</h3>
+                        <p class="place-text-description">Esta lista estaría incompleta sin Ciudad de México, no solo porque es la capital, también por su floreciente escena cultural, numerosos restaurantes de alta cocina y los hipsters, subcultura de jóvenes bohemios.</p>
+                    </div>
+                </div>
+                <div class="evento">
+                    <div class="foto" data-aos="fade-up">
+                        <img src="./src/img/ciudad-COLORES.jpg" alt="">
+                    </div>
+                    <div class="place-text-section">
+                        <h3 class="place-title">San Miguel de Allende</h3>
+                        <p class="place-text-description">Declarada Patrimonio de la Humanidad por la Unesco, la ciudad es como un lienzo de colores vivos en la que es obligado perderse por su centro histórico. Sus calles empedradas rodeadas de color, la arquitectura colonial de sus casas, los mercados de artesanías, sus plazas e iglesias antiguas forman un conjunto difícil de superar</p>
+                    </div>
+                </div>
+                <div class="evento">
+                    <div class="foto" data-aos="fade-up">
+                        <img src="./src/img/garden-on-the-roof.jpg" alt="">
+                    </div>
+                    <div class="place-text-section">
+                        <h3 class="place-title">Castillo de Chapultepec</h3>
+                        <p class="place-text-description">Una parada obligatoria cuando visitamos la Ciudad de Mexico. Los turistas disfrutan de unas hermosas vistas desde las terrazas de este historico castillo, un lugar muy interesante para pasar el dia en familia.</p>
+                    </div>
+                </div>
+                <div class="evento">
+                    <div class="foto" data-aos="fade-up">
+                        <img src="./src/img/museo-nacional-dem-ciudad-de-mc3a9xico.jpg" alt="">
+                    </div>
+                    <div class="place-text-section">
+                        <h3 class="place-title">Museo Nacional de Antropología</h3>
+                        <p class="place-text-description">Sus 22 salas y sus más de 45 mil metros cuadrados de construcción lo convierten en el museo más grande de México y en uno de los más destacados del mundo. Este maravilloso museo está ubicado en la Ciudad de Mexico, se caracteriza por ser un lugar magico lleno de historia y muestras de los inicios de la humanidad y la cultura mexicana. Ideal para recorrerlo todo el dia.</p>
+                    </div>
+                </div>
+                <div class="evento">
+                    <div class="foto" data-aos="fade-up">
+                        <img src="./src/img/lg_landscape_xidgfexr-1352818618.jpg" alt="">
+                    </div>
+                    <div class="place-text-section">
+                        <h3 class="place-title">Palacio Nacional</h3>
+                        <p class="place-text-description">Construido sobre las ruinas de las Nuevas Casas de Moctezuma Xocoyotzin, Palacio Nacional ha sido la sede del poder y de la soberanía del pueblo mexicano desde el siglo XVI. Dentro de sus muros han habitado y trabajado grandes personajes de la historia nacional, desde virreyes, emperadores y presidentes, como el famoso conde de Revillagigedo, Agustín de Iturbide, Benito Juárez y Porfirio Díaz, hasta importantes figuras de la literatura universal, como Sor Juana Inés de la Cruz. </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <section id="section-4" class="information">
+        <div class="information-content">
+            <h1 class="festivales-title">Festivales Importantes en México</h1>
+            <div class="festival-section">
+                <h3 class="festivales-subtitle one">2 de Noviembre - Día de los Muertos</h3>
+                <div class="festivales-description">
+                    Es una de las festividades más importantes de México y se celebra por todo el país. En ella se rinde homenaje a las personas difuntas a través de la creación de pequeños altares en las calles, restaurantes, en las casas familiares, establecimientos etc. En ellos se deja algo de comida para las almas, mientras que por las calles hay desfiles donde se puede ver la imagen de la Catrina, la calavera más típica del país.
+                </div>
+                
+                <div class="fechas-image-container">
+                    <img src="./src/img/muertos-final.jpg" />
+                </div>
+            </div>
+            <div class="festival-section two">
+                <h3 class="festivales-subtitle subtitle-two">18 al 21 de Noviembre - Festival Internacional del Globo</h3>
+                <div class="festivales-description">
+                    Se festeja en León, en el estado de Guanajuato. Esta fiesta se caracteriza por la cantidad de globos aerostáticos que sobrevuelan la ciudad. Su primera edición tuvo lugar en 2002 y, desde entonces, su popularidad ha ido creciendo de manera que actualmente es una de las 3 más importantes de estas características. Actualmente, en el evento prima la originalidad de los globos, de los que los hay de diferentes personajes y diseños de lo más originales.
+                </div>
+                
+                <div class="fechas-image-container">
+                    <img src="./src/img/FIGLeon-4.jpg" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="section-5" class="section">
+        <section class="package-tour-card-list">
+            <h1 class="package-tour-card-list__title">NUESTRAS MEJORES OFERTAS</h1>
+
+            <div onclick="onActiveModal(3)">
+                <div class="package-tour-card">
+                    <div class="package-tour-card__image">
+                        <img src="./src/img/FOTOSCASAMAYA.jpg" alt="">
+                    </div>
+                    <div class="package-tour-card__body">
+                        <div class="package-tour-card__title">Vacaciones en Cancun</div>
+                        <div class="package-tour-card__description">
+                            En Cancún encontrarás esos momentos de desconexión que necesitas y podrás llenarte de nuevas experiencias con el océano de fondo. Caminar por la playa o degustar los sabores del mar resultan una opción ideal para volver con energías renovadas a tu ciudad.<br>
+                            <br>
+                            Tu escapada incluye una estadía en un Alquiler Vacacional para que puedas salir a disfrutar de un entorno lleno de encanto con la libertad que solo este tipo de alojamiento te puede dar. <br>
+                            <br>
+                            <br>
+                            Sentí la brisa del mar ¡desconectate y disfrutá!
+                        </div>
+                    </div>
+                    <div class="package-tour-card__price">
+                        <div class="package-tour-card__fake_value">Antes: $850.760</div>
+                        <div class="package-tour-card__value">Ahora: $630.572</div>
+    
+                        <div class="package-tour-card__button" onclick="onActiveModal(3)">Mas informacion</div>
+                    </div>
+                </div>
+            </div>
+
+            <div onclick="onActiveModal(4)">
+                <div class="package-tour-card">
+                    <div class="package-tour-card__image">
+                        <img src="./src/img/CIUDADDEMEXICO.jpg" alt="">
+                    </div>
+                    <div class="package-tour-card__body">
+                        <div class="package-tour-card__title">Recorrido por la Ciudad de México y su cultura</div>
+                        <div class="package-tour-card__description">
+                            No hay otro destino que congregue tantas diferentes formas de celebrar el Dia de los Muertos como la Ciudad de México. Aprovecha esta oportunidad unica de conocer su maravillosa y colorida cultura.<br>
+                            <br>Te ofrecemos descubrir su famoso Templo mayor, la Catedral Metropolitana de México, el Palacio Nacional, el famoso Zócalo de México y muchos otros lugares emblemáticos.<br>
+                            <br>Tu escapada incluye estadia en un Hotel y viajes a dos Ciudades de México.
+                        </div>
+                    </div>
+                    <div class="package-tour-card__price">
+                        <div class="package-tour-card__fake_value">Antes: $503.322</div>
+                        <div class="package-tour-card__value">Ahora: $320.560</div>
+    
+                        <div class="package-tour-card__button" onclick="onActiveModal(4)">Mas informacion</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+   
+    <section id="section-6" class="questions">
+        <h1 class="questions__title">Preguntas frecuentes sobre México</h1>
+
+        <div class="big-card-list">
+            <div class="big-card">
+                <div class="big-card__icon-contain">
+                    <img src="./src/img/icons8-convertible-roof-warning-64.png" alt="">
+                </div>
+                <div class="big-card__title">Como puedo transportarme en México?</div>
+                <div class="big-card__description">El transporte público en la Ciudad de México se compone de diferentes medios: metro, tren ligero, tren suburbano, metrobús, mexibus, trolebús, RTP (Rutas de Transporte Público), colectivo, autobús suburbano y taxis.</div>
+            </div>
+            <div class="big-card">
+                <div class="big-card__icon-contain">
+                    <img src="./src/img/icons8-boleto-64.png" alt="">
+                </div>
+                <div class="big-card__title">Necesito VISA para ingresar a México?</div>
+                <div class="big-card__description">Las personas de nacionalidad argentina no requieren visa para visitar México por motivos de turismo pero deben comprobar los motivos de su viaje ante la autoridad migratoria.</div>
+                <div class="requeriments-button-contain">
+                    <div onclick="onActiveModal(5)" class="big-card__requeriments-button">Acerca de la documentacion requerida</div>
+                </div>
+            </div>
+            <div class="big-card">
+                <div class="big-card__icon-contain">
+                    <img src="./src/img/icons8-dinero-64.png" alt="">
+                </div>
+                <div class="big-card__title">Cual es la moneda de México?</div>
+                <div class="big-card__description">La moneda oficial en México es el peso mexicano que cuenta con billetes de 1000, 500, 200, 100, 50 y 20 pesos; por su parte, las monedas pueden ser de 100, 50, 20, 10, 5, 2 y 1 pesos y de 50, 20, 10 y 5 centavos.<br>
+                <br>Importante: $1000 argentinos es igual a $129.50 mexicanos. 
+                </div>
+            </div>
+            <div class="big-card">
+                <div class="big-card__icon-contain">
+                    <img src="./src/img/icons8-wifi-64.png" alt="">
+                </div>
+                <div class="big-card__title">Como tener Wi-Fi en el extranjero?</div>
+                <div class="big-card__description">La tarjeta SIM local es una manera de conseguir internet de viaje bastante asequible. Este tipo de tarjetas sueles poder encontrarlas en los diferentes puntos de entrada al país, como aeropuertos, estaciones de tren o autobús.<br>
+                <br>Tambien podemos investigar si tu compañía telefónica tiene cobertura en México y cuáles son los costos.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="arrow" onclick="goToSection('section-1')">
+        <span>^</span>
+    </div>
+
+
+    <section>
+        <footer class="footer">
+            <div class="footer__section">
+                <div class="footer__content">
+                    <div class="footer__title">Preguntas frecuentes</div>
+    
+                    <ul>
+                        <li>Como puedo transportarme en México?</li>
+                        <li>Necesito VISA para ingresar a México?</li>
+                        <li>Cual es la moneda que se maneja en Mexico?</li>
+                        <li>Como puedo tener Wi-Fi en el extranjero?</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="footer__section">
+                <div class="footer__content">
+                    <div class="footer__title">Metodos de pago</div><br>
+                    <br>
+                    <div>
+                        <img src="./src/img/medios-de-pago-suma(2).png"/>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="footer__section">
+                <div class="footer__content">
+                    <div class="footer__title">Participantes</div>
+                    <ul>
+                        <li>Reynoso</li>
+                        <li>Quintana</li>
+                        <li>Lopez</li>
+                        <li>Gagliardi</li>
+                        <li>Gonzales</li>
+                        <li>Escobar</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="reserved-footer">Travel Dream 2022 &copy; Todos los derechos reservados</div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 1000,
+			once: true
+		});
+	</script>
+
+</body>
+</html>

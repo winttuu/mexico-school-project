@@ -1,0 +1,166 @@
+.slider {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.slider > 
+.slider-items > 
+.slider-item {
+    position: absolute;
+    right: 100%;
+    top: 0;
+    width: 100%;
+    height: 50vh;
+    opacity: 0;
+    transition: right .6s, opacity .8s ease-in-out;
+}
+
+
+.slider > 
+.slider-items > 
+.slider-item--active {
+    right: 0;
+    opacity: 1;
+    transition: right .6s, opacity .8s ease-in-out;
+}
+
+.slider > 
+.slider-button {
+    position: absolute;
+    height: 100%;
+    width: 100px;
+    z-index: 1;
+    font-size: 2em;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider > 
+.slider-button--left {
+    left: 0;
+}
+
+.slider > 
+.slider-button--right {
+    right: 0;
+}
+
+.slider > 
+.slider-button > 
+.button {
+    padding: 1em;
+    background-color: rgba(0, 0, 0);
+    color: white;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+.slider > 
+.slider-button > 
+.button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.slogan {
+    font-family: 'Roboto-Black';
+    letter-spacing: 2px;
+    font-size: 1em;
+}
+
+.slider
+.slider-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: transparent;
+}
+
+
+.slider
+.slider-wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: white;
+}
+
+.slider
+.slider-card
+.box-title {
+    max-width: 800px;
+    font-family: 'Roboto-Regular';
+}
+
+.subtitle {
+    padding: 0 0 0 .4em;
+}
+
+.slider
+.slider-card
+.title {
+    font-size: 2.3em;
+    font-family: 'Roboto-Black';
+    text-align: center;
+}
+
+.slider >
+.slider-items >
+.slider-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slider-0 {
+    /* background-image: url('./../img/img-0.jpeg'); */
+    background-image: url('./../img/img-0.webp');
+    background-position: center;
+}
+
+#slider-1 {
+    background-image: url('./../img/img-1.jpg');
+    background-position: bottom;
+}
+
+#slider-2 {
+    background-image: url('./../img/img-2.jpg');
+    background-position: bottom;
+}
+
+.shadow-mexico {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.shadow-mexico > span {
+    width: 100%;
+    height: 100%;
+}
+
+.shadow-mexico > .first {
+    background-color: rgba(0, 104, 71, 0.3);
+}
+
+.shadow-mexico > .second {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.shadow-mexico > .third {
+    background-color: rgba(206, 17, 38, 0.3);;
+}
