@@ -39,40 +39,4 @@ function onHandlerModalSlider(id, isNext) {
         }
     }
 
-
-
-
-
-
-
-
-    // const currentElementNumber = document.querySelector('.slider-item--active').id.replace('slider-', '');
-    // const totalPages = document.querySelectorAll('.slider-item').length;
-
-    // let toElement;
-    // if(isNext) {
-    //     if(currentElementNumber < totalPages - 1) {
-    //         toElement = document.getElementById(`slider-${parseInt(currentElementNumber) + 1}`);
-    //         document.querySelector('.slider-item--active').classList.remove('slider-item--active');
-    //         toElement.classList.add('slider-item--active');
-    //     }
-
-    //     if(currentElementNumber == totalPages - 1) {
-    //         toElement = document.getElementById(`slider-0`);
-    //         document.querySelector('.slider-item--active').classList.remove('slider-item--active');
-    //         toElement.classList.add('slider-item--active');
-    //     }
-    // } else {
-    //     if(currentElementNumber > 0) {
-    //         toElement = document.getElementById(`slider-${parseInt(currentElementNumber) - 1}`);
-    //         document.querySelector('.slider-item--active').classList.remove('slider-item--active');
-    //         toElement.classList.add('slider-item--active');
-    //     }
-
-    //     if(currentElementNumber == 0) {
-    //         toElement = document.getElementById(`slider-${totalPages - 1}`);
-    //         document.querySelector('.slider-item--active').classList.remove('slider-item--active');
-    //         toElement.classList.add('slider-item--active');
-    //     }
-    // }
 }

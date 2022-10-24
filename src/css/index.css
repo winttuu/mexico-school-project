@@ -547,13 +547,16 @@ img {
     padding: 2em 1em;
 }
 
+.footer ul {
+    margin: 0;
+}
+
 
 .footer 
 .footer__section {
     border-left: 1px solid white;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .footer__section:first-child {
@@ -562,14 +565,26 @@ img {
 
 .footer
 .footer__content {
-    text-align: center;
+    text-align: left;
 }
 
+.footer
+.footer__content-center {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3px;
+}
 
 .footer
 .footer__content 
 img {
     width: 80%;
+}
+
+.footer__title {
+    font-weight: bold;
+    text-align: center;
+    min-height: 75px;
 }
 
 .reserved-footer {

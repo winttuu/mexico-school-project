@@ -123,17 +123,17 @@
 
 #slider-0 {
     /* background-image: url('./../img/img-0.jpeg'); */
-    background-image: url('./../img/img-0.webp');
-    background-position: center;
+    background-image: url('./../img/img-optimizadas/img-1-min.jpg');
+    background-position: center;    
 }
 
 #slider-1 {
-    background-image: url('./../img/img-1.jpg');
+    background-image: url('./../img/img-optimizadas/banner-slider-3-min.jpg');
     background-position: bottom;
 }
 
 #slider-2 {
-    background-image: url('./../img/img-2.jpg');
+    background-image: url('./../img/img-optimizadas/img-2-min-min.jpg');
     background-position: bottom;
 }
 
