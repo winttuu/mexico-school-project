@@ -185,6 +185,28 @@
     letter-spacing: 1px;
 }
 
+.modal-slider-image__wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.modal-slider-image__description {
+    position: absolute;
+    width: 100%;
+    padding: 3em 2em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    bottom: 0;
+    background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(9,28,121,0) 100%);
+    min-height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* background-color: rgba(0, 0, 0, .7); */
+}
+
 .package-tour-card__price-modal {
     display: flex;
     justify-content: space-between;
